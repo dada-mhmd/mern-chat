@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 body {
-    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('/bg.png');
+    /* background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url('/bg-test.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/bg-test.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter: brightness(90%);
+    opacity: 88%;
 }
 
 /* dark mode scrollbar */
